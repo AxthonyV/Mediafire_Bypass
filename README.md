@@ -55,7 +55,6 @@ pip install -r requirements.txt
 
 After installation, you can use MediaFire Bypass from the command line. Here are some basic commands:
 
-```bash
 # Download an individual file
 python mediafire.py "https://www.mediafire.com/file/example"
 
@@ -64,10 +63,8 @@ python mediafire.py "https://www.mediafire.com/folder/example"
 
 ## Download Individual File
 
-```bash
 python mediafire.py "https://www.mediafire.com/file/example" -o /output/path
 
 ## Download Entire Folder
 
-```bash
 python mediafire.py "https://www.mediafire.com/folder/example" -t 5
